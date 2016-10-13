@@ -3,7 +3,7 @@ from collections import defaultdict
 from django.db.models import Model
 from django.db.models.base import ModelBase
 from django.db.models.query import get_prefetcher
-from django.db.models.sql.constants import LOOKUP_SEP
+from django.db.models.constants import LOOKUP_SEP
 from itertools import chain, imap, islice, ifilter
 from operator import itemgetter
 from collections import OrderedDict
